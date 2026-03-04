@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------
 # Calyx OTA update package
 
-CALYX_OTA_PACKAGE := $(PRODUCT_OUT)/calyx-ota-$(TARGET_DEVICE)-$(BUILD_NUMBER).zip
+CALYX_OTA_PACKAGE := $(PRODUCT_OUT)/calyx-ota-$(TARGET_DEVICE)-$(CALYXOS_VERSION).zip
 
 SHA256 := prebuilts/build-tools/path/$(HOST_PREBUILT_TAG)/sha256sum
 
